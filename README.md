@@ -2,7 +2,7 @@
 
 ### Main.java
 ```
-package com.kensoftph.javafxmedia;
+package com.miniproject.javafxmedia;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -29,7 +29,7 @@ public class Main extends Application {
 
 ### MediaPlayerController.java
 ```
-package com.kensoftph.javafxmedia;
+package com.miniproject.javafxmedia;
 
 import java.io.File;
 import java.util.LinkedList;
@@ -193,7 +193,7 @@ public class MediaPlayerController {
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.media.MediaView?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kensoftph.javafxmedia.MediaPlayerController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.miniproject.javafxmedia.MediaPlayerController">
    <center>
       <MediaView fx:id="mediaView" fitHeight="200.0" fitWidth="200.0" BorderPane.alignment="BOTTOM_CENTER" />
 
