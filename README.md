@@ -50,8 +50,6 @@ import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 import javafx.stage.FileChooser;
 import javafx.util.Duration;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 
 public class MediaPlayerController {
 
@@ -67,14 +65,7 @@ public class MediaPlayerController {
     @FXML
     private Slider slider;
 
-    @FXML
-    private Button btnNext;
 
-    @FXML
-    private Button btnPrevious;
-
-    @FXML
-    private ImageView albumCoverImageView;
     @FXML
     private Label lblCurrentSong;
 
